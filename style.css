@@ -1,0 +1,91 @@
+body{
+    background-color: #e2e2e2;
+    overflow-x: hidden;
+}
+@media only screen and (max-width: 400px){
+    body{
+        overflow-x: hidden;
+    }
+    .map{
+        height: 150px;
+    }
+}
+.bgDarkBlue{
+    background-color: #293241 !important;
+}
+.grey{
+    color: #9ba7bb !important;
+}
+.black{
+    color: #000;
+}
+.darkgrey{
+    color: #505b70 !important;
+
+}
+.green{
+    color: green !important;
+}
+#row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card:hover{
+    cursor: pointer;
+}
+#map{
+    background-color: #293241;
+    color: #fff;
+}
+#map iframe{
+    width: 100%;
+    border-radius: 10px;
+}
+.nav-link:any-link{
+    color: #98c1d9;
+}
+.container h1{
+    color: #293241;
+}
+.class{
+    text-decoration: underline;
+}
+.nav-link{
+    font-size: 1.2em;
+}
+.row h2{
+    text-decoration: underline;
+}
+.facebook{
+    color: #3b5794;
+}
+.whatsapp{
+    color: #33cc64;
+}
+.row a{
+    text-decoration: none;
+}
+#gmail{
+    color: #fff;
+}
+.copyRight{
+    background-color: #306dd9;
+}
+.copyRight p{
+    margin: 10px;
+    font-size: 12px;
+}
+.copyRight a{
+    color: #fff;
+    text-decoration: none;
+}
+.copyRight p > a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+.right{
+    position: absolute;
+    right: 0px;
+}
